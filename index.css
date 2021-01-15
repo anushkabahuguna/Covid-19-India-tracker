@@ -32,6 +32,13 @@ animation: 1s slidefade 1s forwards;
    
 
 }
+h6{
+    margin:2 rem;
+    font-size: 0.5rem;
+    text-align: center;
+    opacity:0;
+    animation: 1s slidefade 2s forwards;
+}
 
 .one div{
     margin:1rem;
@@ -59,6 +66,7 @@ animation: 1s slidefade 1s forwards;
 .two div:hover{
     transform: scale(1.5);
     transition: transform 0.5s ;
+    color: palevioletred;
 }
 @keyframes slidefade {
 	100% {
